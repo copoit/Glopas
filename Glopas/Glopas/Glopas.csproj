@@ -210,7 +210,8 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Mainmenu.aspx" />
+    <Content Include="MainMenu.aspx" />
+    <Content Include="InspectionMain.aspx" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -417,12 +418,19 @@
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
     </Compile>
-    <Compile Include="Mainmenu.aspx.cs">
-      <DependentUpon>Mainmenu.aspx</DependentUpon>
+    <Compile Include="MainMenu.aspx.cs">
+      <DependentUpon>MainMenu.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Mainmenu.aspx.designer.cs">
-      <DependentUpon>Mainmenu.aspx</DependentUpon>
+    <Compile Include="MainMenu.aspx.designer.cs">
+      <DependentUpon>MainMenu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InspectionMain.aspx.cs">
+      <DependentUpon>InspectionMain.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InspectionMain.aspx.designer.cs">
+      <DependentUpon>InspectionMain.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

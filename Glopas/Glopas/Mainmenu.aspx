@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Mainmenu.aspx.cs" Inherits="Glopas.WebForm1" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="MainMenu.aspx.cs" Inherits="Glopas.MainMenu" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
      <b>Main Menu</b>
             <br />

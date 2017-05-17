@@ -10,7 +10,7 @@
 namespace Glopas {
     
     
-    public partial class WebForm1 {
+    public partial class MainMenu {
         
         /// <summary>
         /// btnInspectionMenu control.
